@@ -1,0 +1,31 @@
+name: Native relay source check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: native-relay-source-check
+  cancel-in-progress: false
+
+jobs:
+  source-build:
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - name: Check out exact requested source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Test production components and compile ARM64 relay
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --exit-code
+          output="$RUNNER_TEMP/native-relay-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          OB_SOURCE_SHA="$(git rev-parse HEAD)" bash ./build.sh "$output"
+          cat "$output/foundation-tests/SCOPE.txt"
+          cat "$output/SOURCE_SHA" "$output/BUILD_TOOLS.txt" "$output/SHA256SUMS"
+          git diff --exit-code

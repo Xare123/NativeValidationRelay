@@ -1,0 +1,14 @@
+.DS_Store
+build/
+out/
+generated/
+*.app/
+*.ipa
+*.tipa
+*.log
+.env
+.env.*
+*.p12
+*.p8
+*.key
+*.mobileprovision

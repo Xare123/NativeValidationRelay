@@ -1,0 +1,282 @@
+{
+  "source_repository": "https://github.com/Xare123/openbubbles-app",
+  "source_commit": "161f35952c22cb59b8cb3a034e176097f2df8b60",
+  "source_directory": "tooling/ios/native-validation-relay",
+  "scope": "native relay only; no diagnostic, account or device data",
+  "files": [
+    {
+      "path": "README.md",
+      "original_path": "tooling/ios/native-validation-relay/README.md",
+      "original_git_mode": "100644",
+      "original_blob": "f7b65ca5b7d861526914c6812e9f06ebf586ab86",
+      "sha256": "a27bfa94cd64ffff0cafcfe946b2cdaa11f9e886845936198706986860a1d3f4"
+    },
+    {
+      "path": "build.sh",
+      "original_path": "tooling/ios/native-validation-relay/build.sh",
+      "original_git_mode": "100644",
+      "original_blob": "cea57453bc989e48d445e073104663490df77ac0",
+      "sha256": "fd56973b69814d315d3ed9e97f8af76bd66c6f2922c02eb2bd2e6ff7a29993bd"
+    },
+    {
+      "path": "entitlements.plist",
+      "original_path": "tooling/ios/native-validation-relay/entitlements.plist",
+      "original_git_mode": "100644",
+      "original_blob": "4888aae953e28390981eade59ea9320164481e8c",
+      "sha256": "6c0adffacff1cf63eb59a8309d4ffb262bd73b38f34f6c652f1de9788d8ab209"
+    },
+    {
+      "path": "nac/OBAbsintheIPC.defs",
+      "original_path": "tooling/ios/native-validation-relay/nac/OBAbsintheIPC.defs",
+      "original_git_mode": "100644",
+      "original_blob": "b87b075134c58edbc56ffe379e881d55ec6fb938",
+      "sha256": "423a24e058348e015bfce7f54b345ff3ad8b6b6771baf282b2b88305cd2c651b"
+    },
+    {
+      "path": "nac/OBNativeNACValidator.h",
+      "original_path": "tooling/ios/native-validation-relay/nac/OBNativeNACValidator.h",
+      "original_git_mode": "100644",
+      "original_blob": "375b4807b2bed3d982416c5cc0208804c8e4a405",
+      "sha256": "e02cbbf080a7e5b6b0b00df31da5f679434946001e7072f4cdfde348ec6ee8d3"
+    },
+    {
+      "path": "nac/OBNativeNACValidator.m",
+      "original_path": "tooling/ios/native-validation-relay/nac/OBNativeNACValidator.m",
+      "original_git_mode": "100644",
+      "original_blob": "2f3b9989c67520762552460181c77277394f83e2",
+      "sha256": "ad679142356d93a85c654bea93b56916fb6864395a82a53f3875efe148cb2f17"
+    },
+    {
+      "path": "nac/PROVENANCE.md",
+      "original_path": "tooling/ios/native-validation-relay/nac/PROVENANCE.md",
+      "original_git_mode": "100644",
+      "original_blob": "11d5b2a3bd446b0ecde13652bb893119e913bcb3",
+      "sha256": "eef942887658de815f34e297994aebd0088100e0af002454feb0a0acd142d7a7"
+    },
+    {
+      "path": "src/Info.plist",
+      "original_path": "tooling/ios/native-validation-relay/src/Info.plist",
+      "original_git_mode": "100644",
+      "original_blob": "974831266532140b8c2efba08a483ebcd29a1b70",
+      "sha256": "0d3ae895720cd47346fb43f8f31722e61efb72f1bc42e23d8df8d76459993848"
+    },
+    {
+      "path": "src/OBNACValidator.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBNACValidator.h",
+      "original_git_mode": "100644",
+      "original_blob": "a2c5a2d0dbde592a6e113e936a8fe5b3091ca9a7",
+      "sha256": "3d10015dbdcc2857fa3b5113be2c111eae32f79372a04e6ddc27dc692a601724"
+    },
+    {
+      "path": "src/OBNACValidatorUnavailable.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBNACValidatorUnavailable.m",
+      "original_git_mode": "100644",
+      "original_blob": "4944542aab9dc00cbc5de6166cae32c2f72e2938",
+      "sha256": "c836f6238393ad824534833f7b8a2e656e1c742dbb8688b747fc8000979cb50e"
+    },
+    {
+      "path": "src/OBRelayAppDelegate.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayAppDelegate.h",
+      "original_git_mode": "100644",
+      "original_blob": "51e3471da7a59f3bab395d570a497c539a397186",
+      "sha256": "7d1fac1ee7e154b663c3a8cbdff7d877d51b0c2832f2841118c8bf4f51dd2499"
+    },
+    {
+      "path": "src/OBRelayAppDelegate.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayAppDelegate.m",
+      "original_git_mode": "100644",
+      "original_blob": "2295abd73e662f7cee4757ab1b0b54cf51e99739",
+      "sha256": "21e71377c0ed8b68f9b348676fd1d88d7e7c16780d7fa1dea5d7dd8fef5620f3"
+    },
+    {
+      "path": "src/OBRelayAuthBundle.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayAuthBundle.h",
+      "original_git_mode": "100644",
+      "original_blob": "0fadefc9996e8af9ea9dcc72de4496c892c9fff7",
+      "sha256": "e28f8e47bd3e7fa94dccbe228b47f8242ab723ff7df22f99fc875430df28c8f4"
+    },
+    {
+      "path": "src/OBRelayAuthBundle.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayAuthBundle.m",
+      "original_git_mode": "100644",
+      "original_blob": "672749d4f34a558e621e123e78d1190b7941eab1",
+      "sha256": "a26a93c401a1fb96f2e8fce611dfec3a9b539db58749acf1dc085be739386a71"
+    },
+    {
+      "path": "src/OBRelayConnection.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayConnection.h",
+      "original_git_mode": "100644",
+      "original_blob": "f0c22dc933db454c7c40b3f16eb36cdeece949bf",
+      "sha256": "fb92d65f66b7ccc96a71d7465667f1d292bd09594e4bb3f1b59653ca0b180618"
+    },
+    {
+      "path": "src/OBRelayConnection.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayConnection.m",
+      "original_git_mode": "100644",
+      "original_blob": "a94118d10261bdf7e2575e1bcec9a3eddc1317eb",
+      "sha256": "8c0ada41966ca6d3bcd5a2cfbeb6762981098271030237f0f58dc2d603894a4e"
+    },
+    {
+      "path": "src/OBRelayDispatcher.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayDispatcher.h",
+      "original_git_mode": "100644",
+      "original_blob": "195574a5f759a66f9f57633f1d03bf1b854513ce",
+      "sha256": "c906ac0b53a76732d7b811f7c79fec686485b51382b0c9c5f19f0fc8e610a23d"
+    },
+    {
+      "path": "src/OBRelayDispatcher.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayDispatcher.m",
+      "original_git_mode": "100644",
+      "original_blob": "ec1299b40f8f11b73e77a66a3ed26ec7b647bc81",
+      "sha256": "cd32ef447008524bcf35b4c265324512cedb194fbca242dd18527f28c7c64eb2"
+    },
+    {
+      "path": "src/OBRelayEmptyQualifierGenerator.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayEmptyQualifierGenerator.m",
+      "original_git_mode": "100644",
+      "original_blob": "469426200bd62c50ca0143974b4402237af5cf72",
+      "sha256": "00e4f87c0503cbe896497b39ff8bf4e0bbb75441af577307ece12f7330e86738"
+    },
+    {
+      "path": "src/OBRelayGenerators.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayGenerators.h",
+      "original_git_mode": "100644",
+      "original_blob": "12241442541ab05fed365c57f9deb38f4409595c",
+      "sha256": "81f368cc85d10c51979be0e12fb2ba527ff1928f1cca8d04162f7e8a925aee9e"
+    },
+    {
+      "path": "src/OBRelayHeaderGenerator.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayHeaderGenerator.m",
+      "original_git_mode": "100644",
+      "original_blob": "ff9c2f0dc54e59a7b189fc310fb55774204569a7",
+      "sha256": "3d6932e9dfe8330a2363f287f499ceab184e1a104bff3b75c6cc3653cf72251f"
+    },
+    {
+      "path": "src/OBRelayIdentifiers.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayIdentifiers.h",
+      "original_git_mode": "100644",
+      "original_blob": "9220209e2af2e3a8a97b2b3578ea7702879b7fa4",
+      "sha256": "19f8404e0636dc537a826530ef90afc4adcd0ed6c1465650b1820d5a7dbdd590"
+    },
+    {
+      "path": "src/OBRelayIdentifiers.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayIdentifiers.m",
+      "original_git_mode": "100644",
+      "original_blob": "c0af9d26e24b396fc5655431a730f5f1c641f554",
+      "sha256": "e11fa36ea71eb59fc91912f295016475c264b4438996c94043695da518707164"
+    },
+    {
+      "path": "src/OBRelayNativePush.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayNativePush.h",
+      "original_git_mode": "100644",
+      "original_blob": "dad27920b1566bfa5cb6364fdd96b57d4009bf49",
+      "sha256": "df52d2fdbad100c860ffb70a69afcc0e869eb6efe0bb2a6484a75e75324e42f9"
+    },
+    {
+      "path": "src/OBRelayNativePush.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayNativePush.m",
+      "original_git_mode": "100644",
+      "original_blob": "031534bba97e93fe12370cbd02a2f604ba8b0e09",
+      "sha256": "0e5be595edff811719c1c49c326b2ba76f047e4b1bebe331381461659dc31850"
+    },
+    {
+      "path": "src/OBRelayPushProtocol.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayPushProtocol.h",
+      "original_git_mode": "100644",
+      "original_blob": "bce86837a0220d6f3f3180408e50e02ecea0e68e",
+      "sha256": "2434a45567f51a782f650e5a7a3a7608a0001c8fac90c17b142cf9505e4bdf50"
+    },
+    {
+      "path": "src/OBRelayPushProtocol.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayPushProtocol.m",
+      "original_git_mode": "100644",
+      "original_blob": "72e1d5f47760051b29ab6ab639996c3097e2b6c6",
+      "sha256": "944da3bff99082e361082e7e6c4f055d6cf7538e80b0059df62daf980a4c6dab"
+    },
+    {
+      "path": "src/OBRelayPushService.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayPushService.h",
+      "original_git_mode": "100644",
+      "original_blob": "828536186f6f5d379cc9650a475a02e9f750448c",
+      "sha256": "607d817c2cf4955806cd9a03330575d0134e583ae5c2cb74513cb5202059855d"
+    },
+    {
+      "path": "src/OBRelayPushService.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayPushService.m",
+      "original_git_mode": "100644",
+      "original_blob": "72ee9cdae2a6861a78ca17c0b89ce6cdf9efc74b",
+      "sha256": "6fcbd3ae534d7ca05b717e6633f2db7fdc51c2bcc9992072e04446c118138c3e"
+    },
+    {
+      "path": "src/OBRelayRegistrationStore.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayRegistrationStore.h",
+      "original_git_mode": "100644",
+      "original_blob": "1f47a576d988f5270f8b38c3607873b9d4eb9414",
+      "sha256": "fbc8cd8d1eeeb0376a9710c71b0d9cc27e3afb8935e1a3b00c7538a36a3d6d14"
+    },
+    {
+      "path": "src/OBRelayRegistrationStore.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayRegistrationStore.m",
+      "original_git_mode": "100644",
+      "original_blob": "6ecab5d7c6eaa8d8a4b4dc45231955b66e08d8f0",
+      "sha256": "29984600a44500ac82cc21b877d875712892bb73bc7b68d335eeef0185aede0f"
+    },
+    {
+      "path": "src/OBRelayViewController.h",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayViewController.h",
+      "original_git_mode": "100644",
+      "original_blob": "880e2143317b8ea5eabb6271722f284d9fbeb2f1",
+      "sha256": "49a3154a9729f7a349645a4e14edeffac4fbff26b9003da5843cb7ef1dff008c"
+    },
+    {
+      "path": "src/OBRelayViewController.m",
+      "original_path": "tooling/ios/native-validation-relay/src/OBRelayViewController.m",
+      "original_git_mode": "100644",
+      "original_blob": "a732c7e088d8a9c3da188d13d3695b825b947704",
+      "sha256": "109c74b33d8fe794db0cdaa8c24859e54f9310ecd72f04bf63eaad7b63eb1778"
+    },
+    {
+      "path": "src/main.m",
+      "original_path": "tooling/ios/native-validation-relay/src/main.m",
+      "original_git_mode": "100644",
+      "original_blob": "8c7c1864228364c68c439b5e6472712093c25526",
+      "sha256": "639c2be8180fe7dcea54305d952358c4672c34317f7f0b722a694ed0bf7bee40"
+    },
+    {
+      "path": "tests/push-protocol-tests.m",
+      "original_path": "tooling/ios/native-validation-relay/tests/push-protocol-tests.m",
+      "original_git_mode": "100644",
+      "original_blob": "5798a6103a5e36b71a5a1aec6d7cda811717b386",
+      "sha256": "b0998cf1d8489c8f77da8558a4403fefaa40cf0068d26708889a3dc6fcb7f6b6"
+    },
+    {
+      "path": "tests/push-service-tests.m",
+      "original_path": "tooling/ios/native-validation-relay/tests/push-service-tests.m",
+      "original_git_mode": "100644",
+      "original_blob": "2479537b6da2626e02c9705f988399435781dfb8",
+      "sha256": "00f0cb7d0367602ed1a044d97b0540a8ab5440c44230130140c977edfc91a0b2"
+    },
+    {
+      "path": "tests/registration-store-tests.m",
+      "original_path": "tooling/ios/native-validation-relay/tests/registration-store-tests.m",
+      "original_git_mode": "100644",
+      "original_blob": "52b968cbbb391ce2d05123ab9a6658fd4badc187",
+      "sha256": "196e56b5ff2ca920709571c265759e9a97cf6ea18a07d701b32c277a52f63a51"
+    },
+    {
+      "path": "tests/relay-foundation-tests.m",
+      "original_path": "tooling/ios/native-validation-relay/tests/relay-foundation-tests.m",
+      "original_git_mode": "100644",
+      "original_blob": "07a5a0564cbd4c254926536b0b57ab3ff6622ba0",
+      "sha256": "ac5017c0bc611596f5d5bddd0496bebdb99b1a29d3fc2aeceeb12ddde9de3fb4"
+    },
+    {
+      "path": "tests/run-foundation-tests.sh",
+      "original_path": "tooling/ios/native-validation-relay/tests/run-foundation-tests.sh",
+      "original_git_mode": "100644",
+      "original_blob": "728bbd981847e76cf3fb13d1cbc13e73a960caef",
+      "sha256": "9836d75c9e42a0546945b843cc36c732759fa036ce4e670b266ea57067fe39dc"
+    }
+  ],
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+}
